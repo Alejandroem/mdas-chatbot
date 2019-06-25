@@ -1,3 +1,5 @@
+package chatbot
+
 trait UserOutput {
   def write(message: String): Unit
   def writeln(message: String): Unit = {

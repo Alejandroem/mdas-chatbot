@@ -1,3 +1,5 @@
+package chatbot
+
 import java.time.{LocalDate, LocalTime}
 
 trait TimeProvider {

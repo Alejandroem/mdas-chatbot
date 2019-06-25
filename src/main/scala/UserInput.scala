@@ -1,3 +1,5 @@
+package chatbot
+
 trait UserInput {
   def read(): String
 }

@@ -4,7 +4,7 @@
 		module="chatbot-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190625191951"
+		publication="20190625202602"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

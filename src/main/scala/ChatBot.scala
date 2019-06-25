@@ -1,3 +1,5 @@
+package chatbot
+
 import scala.io.StdIn
 
 object ChatBot {
@@ -12,6 +14,10 @@ object ChatBot {
      */
     val nombre = StdIn.readLine("Hola me llamo ChatBTX. ")
     println(s"Hola $nombre, cierrame con bye o dime cualquier cosa")
-º
+
+    val c = Processed("respuesta", null, false)
+    while(!c.endOfDialog){
+      ConsoleOutput.write(c.answer)
+    }
   }
 }
