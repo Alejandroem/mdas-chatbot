@@ -5,7 +5,7 @@ import java.time.format.DateTimeFormatter
 import chatbot.{ChatbotMode, EffectsProvider, Failed, Processed}
 
 
-object CurrentTime extends ChatbotMode {
+object Bye extends ChatbotMode {
   override def process ( message: String, effects: EffectsProvider) = {
     if (message =="time"){
       val currentTime = effects.currentTime()
