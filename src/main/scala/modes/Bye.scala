@@ -1,4 +1,4 @@
-package ChatBoot
+package modes
 
 import java.time.format.DateTimeFormatter
 

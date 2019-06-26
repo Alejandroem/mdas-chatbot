@@ -9,7 +9,7 @@ object CurrentDay extends  ChatbotMode{
     if (message =="today"){
       val currentDate = effects.currentDate()
       val message = currentDate.format(DateTimeFormatter.ofPattern("dd/MM/YYYY"))
-      Processed(message, this, true)
+      Processed(message, this, false)
     }else{
       Failed()
     }

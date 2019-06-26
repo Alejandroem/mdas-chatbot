@@ -1,4 +1,4 @@
-package ChatBoot
+package modes
 
 import chatbot.{ChatbotMode, EffectsProvider, Failed, Processed}
 

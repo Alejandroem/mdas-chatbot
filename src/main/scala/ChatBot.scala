@@ -1,7 +1,6 @@
 
-import ChatBoot.{Bye, CurrentTime}
 import chatbot.{DefaultEffects, Failed, Processed}
-import modes.CurrentDay
+import modes.{Bye, CurrentDay, CurrentTime}
 
 import scala.io.StdIn
 
@@ -14,7 +13,7 @@ object ChatBot {
     val nombre = StdIn.readLine("Hola me llamo ChatBTX. ¿Cómo te llamas? ")
     println(s"Hola $nombre, cierrame con bye o dime cualquier cosa")
 
-    var mode = CurrentDay
+    var mode = CurrentDay or Bye or CurrentTime
     var c = Processed("",mode,false)
 
 
